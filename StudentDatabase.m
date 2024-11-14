@@ -12,7 +12,7 @@ classdef StudentDatabase
             obj.Students = [obj.Students, student];
         end
         
-        % How to find a student by ID with error handling
+        % How to find student by ID with error handling
         function student = findStudentByID(obj, ID)
             if ~isnumeric(ID) || ID <= 0 || mod(ID, 1) ~= 0
                 error('ID must be a positive integer.');
