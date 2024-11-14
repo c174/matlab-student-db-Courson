@@ -73,7 +73,7 @@ classdef StudentDatabase
 
         % Design Visualization Methods with Error Handling.
 
-        % Plot GPA distribution histogram and include custom colors.
+        % Plot GPA distribution histogram and add custom colors.
         function plotGpaDistribution(obj)
             if isempty(obj.Students)
                 error('No students in database to visualize.');
@@ -85,7 +85,7 @@ classdef StudentDatabase
             ylabel('Number of Students');
         end
 
-        % Plot average GPA by major and include custom colors
+        % Plot average GPA by major and add custom colors
         function plotAverageGpaByMajor(obj)
             if isempty(obj.Students)
                 error('No students in database to visualize.');
@@ -98,7 +98,7 @@ classdef StudentDatabase
             ylabel('Average GPA');
         end
 
-        % Plot age distribution histogram and include custom colors
+        % Plot age distribution histogram and add custom colors
         function plotAgeDistribution(obj)
             if isempty(obj.Students)
                 error('No students in database to visualize.');
@@ -110,7 +110,7 @@ classdef StudentDatabase
             ylabel('Number of Students');
         end
 
-        % Interactive scatter plot for GPA vs Age with data cursor included
+        % Interactive scatter plot for GPA vs Age with data cursor invloved
         % as additional component.
         function plotGpaVsAgeInteractive(obj)
             if isempty(obj.Students)
@@ -125,7 +125,7 @@ classdef StudentDatabase
             datacursormode on; % Permits interactive data cursor mode.
         end
 
-        % Box plot of GPAs by major for a statistical distribution.
+        % Box plot of GPAs by major for statistical distribution.
         function plotGpaBoxPlotByMajor(obj)
             if isempty(obj.Students)
                 error('No students in database to visualize.');
