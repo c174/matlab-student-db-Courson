@@ -15,7 +15,7 @@ plotAgeDistribution(): Histogram for student ages
 plotGpaVsAgeInteractive(): Interactive scatter plot
 plotGpaBoxPlotByMajor(): Box plot for GPA by major
 gpaSummaryStatistics(): Include summary stats, such as S.D.
-
+ 
 Run Main.m for the full list of students in order from 1-200.
 To find specific student based on ID number, just run this as a file with database components.
 
