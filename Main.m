@@ -58,5 +58,5 @@ db.plotGpaVsAgeInteractive();
 figure;
 db.plotGpaBoxPlotByMajor();
 
-% Show GPA summary statistics
+% Show GPA summary stats
 db.gpaSummaryStatistics();
