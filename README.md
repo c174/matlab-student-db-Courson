@@ -35,3 +35,4 @@ db.plotGpaVsAgeInteractive();
 db.plotGpaBoxPlotByMajor();
 Plots and Graphs
 
+Implemented features include seperate way to find student with only ID number or only Major in additional file.
