@@ -9,3 +9,19 @@ if ~isempty(specific_student)
 else
     disp(['Student with ID ' num2str(student_id) ' not found.']);
 end
+
+% Specify the major you want to search for
+desired_major = 'Mathematics';
+
+% Retrieve students in the specified major
+students_in_major = db.getStudentsByMajor(desired_major);
+
+% Check if any students were found and display their information
+if ~isempty(students_in_major)
+    fprintf('Students in the %s major:\n', desired_major);
+    for i = 1:length(students_in_major)
+        students_in_major(i).displayInfo();
+    end
+else
+    fprintf('No students found in the %s major.\n', desired_major);
+end
