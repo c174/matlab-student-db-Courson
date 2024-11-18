@@ -1,3 +1,4 @@
+% Just run this code in seperate tab to find any student by ID Number or Major
 % Search for student by ID Number, e.g., Student 22
 student_id = 22;
 specific_student = db.findStudentByID(student_id);
